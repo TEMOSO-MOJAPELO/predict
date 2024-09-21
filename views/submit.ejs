@@ -1,13 +1,13 @@
 <%- include("partials/header.ejs") %>
 <div class="max-w-[800px] mt-[-96px] w-full h-screen mx-auto flex flex-col items-center justify-center">
-    <div class="bg-[#E1D7C2] flex flex-col md:p-[90px] md:px-[250px] p-[125px] px-[400px] rounded-2xl">
+    <div class=" flex flex-col md:p-[90px] md:px-[250px] p-[125px] px-[400px]">
         <% if(locals.TeamMatch) { %>
             <h1 class="text-[#8A764E] flex text-center my-6 text-2xl font-bold">
                 <%= TeamMatch %> has a chance of winning the upcoming game.
             </h1>
         <% } %>
         <div class="flex items-center sm:text-sm md:text-md text-xl text-bold">
-            <a class="flex items-center my-2 mx-auto" href="/demo"><button class="bg-[#8A764E] border-[#8A764E] text-[#E1D7C2] px-7 py-2 rounded-full">Go Back</button></a>
+            <a class="flex items-center my-2 mx-auto" href="/demo"><button class="bg-[#8A764E] border-[#8A764E] text-[#E1D7C2] px-9 py-2 mx-2 rounded-full">Back</button></a>
             <a class="my-2 mx-auto flex items-center" href="/"><button class="bg-[#8A764E] border-[#8A764E] text-[#E1D7C2] px-9 py-2 rounded-full">Home</button></a>    
         </div>
     </div>
