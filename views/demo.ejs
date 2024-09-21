@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs") %>
+<div class="max-w-[800px] mt-[-96px] w-full h-screen mx-auto flex flex-col items-center justify-center">
+    <div class="bg-[#E1D7C2] flex flex-col min-[350px]:p-[40px] sm:p-[60px] md:p-[80px] md:px-[250px] p-[125px] px-[300px] rounded-2xl">
+        <form class="mx-auto" action="/submit" method="POST">
+            <label class="text-[#B7B5B1] md:text-2xl text-xl">First Team: </label>
+            <p class="pt-3 pb-4 my-2"><input class=" text-2xl outline-none border-b-4 border-[#908370] text-[#908370] bg-transparent" type="text" name="firstTeam" id="firstTeam"></p>
+            <label class=" text-[#B7B5B1] md:text-2xl text-xl">Opponent: </label>
+            <p class="pt-3 pb-2"><input class="text-2xl outline-none border-b-4 border-[#908370] text-[#908370] bg-transparent" type="text" name="opponent" id="Opponent"></p>
+            <button class="bg-[#8A764E] border-[#8A764E] text-[#E1D7C2] px-4 py-3 my-2 mx-auto flex items-center rounded-full" type="submit">Generate</button>
+        </form>
+    </div>
+</div>
+
+<%- include("partials/footer.ejs") %>
