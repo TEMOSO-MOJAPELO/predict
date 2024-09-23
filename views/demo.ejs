@@ -1,12 +1,12 @@
 <%- include("partials/header.ejs") %>
 <div class="max-w-[800px] mt-[-96px] w-full h-screen mx-auto flex flex-col items-center justify-center">
-    <div class="bg-[#E1D7C2] flex flex-col min-[300px]:p-[10px] sm:p-[60px] md:p-[80px] md:px-[250px] p-[125px] px-[300px] rounded-2xl">
-        <form class="mx-auto my-6" action="/submit" method="POST">
-            <label class="ml-4 text-[#B7B5B1] sm:text-md md:text-2xl text-xl">First Team: </label>
-            <p class="pt-3 pb-4 my-2 ml-3"><input class=" md:text-xl text-2xl outline-none border-b-4 border-[#908370] text-[#908370] bg-transparent" type="text" name="firstTeam" id="firstTeam"></p>
-            <label class="ml-4 text-[#B7B5B1] sm:text-md md:text-2xl text-xl">Opponent: </label>
-            <p class="pt-3 pb-2 ml-3 mr-2 mb-2"><input class="md:text-xl text-2xl outline-none border-b-4 border-[#908370] text-[#908370] bg-transparent" type="text" name="opponent" id="Opponent"></p>
-            <button class="bg-[#8A764E] border-[#8A764E] text-[#E1D7C2] md:text-sm sm:px-2 md:px-3 px-4 py-3 my-2 mx-auto flex items-center rounded-full" type="submit">Generate</button>
+    <div class="bg-[#E1D7C2] flex flex-col min-[250px]:p-[10px] sm:p-[60px] md:p-[80px] md:px-[250px] p-[125px] px-[300px] rounded-2xl">
+        <form class="mx-auto" action="/submit" method="POST">
+            <label class="ml-4 text-[#B7B5B1] min-[250px]:pt-2 sm:text-2xl md:text-xl text-md">First Team: </label>
+            <p class="pt-3 pb-4 my-2 ml-3"><input class=" md:text-xl text-md outline-none border-b-4 border-[#908370] text-[#908370] bg-transparent" type="text" name="firstTeam" id="firstTeam"></p>
+            <label class="ml-4 text-[#B7B5B1] sm:text-2xl md:text-xl text-md">Opponent: </label>
+            <p class="pt-3 pb-2 ml-3 mr-2 mb-2"><input class="md:text-xl text-md outline-none border-b-4 border-[#908370] text-[#908370] bg-transparent" type="text" name="opponent" id="Opponent"></p>
+            <button class="bg-[#8A764E] border-[#8A764E] text-[#E1D7C2] md:text-md text-sm sm:px-4 md:px-3 px-3 py-3 my-2 mx-auto flex items-center rounded-full" type="submit">Generate</button>
         </form>
     </div>
 </div>
